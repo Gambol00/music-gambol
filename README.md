@@ -7,7 +7,7 @@
 # <p align="center" style="color:#cb3349" > [قناه السورس](https://telegram.me/G8_01) <br>
 
  
-# <p align="center" style="color:#cb3349" > [مــطــور ســورس](https://telegram.me/G8_M_L) <br>
+# <p align="center" style="color:#cb3349" > [مــطــور الســورس](https://telegram.me/G8_M_L) <br>
  
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Gambol00/music-gambol)
