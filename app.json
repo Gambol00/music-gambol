@@ -1,9 +1,9 @@
 {
-    "name": "UFOVc",
-    "logo": "https://telegra.ph/file/19d68d531fd2f6f96e368.jpg",
+    "name": "ᴅᴇᴠ ɢᴀᴍʙᴏʟ",
+    "logo": "https://i.imgur.com/A4foEFL.jpg",
     "description": "Ꮐ8 Music Voice Chat.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/moazizaa/music",
+    "repository": "https://github.com/Gambol00/music-gambol",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
@@ -27,7 +27,7 @@
         "ASSISTANT_NAME": {
             "description": "يوزر نيم المساعد >  @",
             "required": true,
-            "value": "G8_00_bot"
+            "value": "G8_00_0"
         },
         "BG_IMAGE": {
             "description": "حط لينك الصوره الي عايزها هن",
@@ -53,7 +53,7 @@
             "required": true
         },
         "SUDO_USERS": {
-            "description": "حط يوزر اك المطور الي عايزه للبوت",
+            "description": "يوزر الادمن للبوت : تقدر تخلي اكتر م حساب سيب مسافه بينهم",
             "required": true
         },
         "DURATION_LIMIT": {
