@@ -1,0 +1,88 @@
+{
+    "name": "ᴅᴇᴠ ɢᴀᴍʙᴏʟ",
+    "logo": "https://i.imgur.com/A4foEFL.jpg",
+    "description": "Ꮐ8 Music Voice Chat.",
+    "keywords": ["music", "voice chat", "telegram"],
+    "repository": "https://github.com/Gambol00/music-gambol",
+    "stack": "container",
+    "env": {
+        "SESSION_NAME": {
+            "description": "كـود التـريـمكـس",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "تــوكن البــوت",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "اســم البـــوت",
+            "required": false,
+            "value": "ɢᴀᴍʙᴏʟ"
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البــوت م غير > @",
+            "required": true,
+            "value": "G8_00_bot"
+        },
+        "ASSISTANT_NAME": {
+            "description": "يوزر المـساعــد م غيـر >  @",
+            "required": true,
+            "value": "G8_00_0"
+        },
+        "BG_IMAGE": {
+            "description": "الــصـــوره",
+            "required": false,
+            "value": "https://i.imgur.com/TkDRyzz.jpg"
+        },
+        "THUMB_IMG": {
+            "description": "صـوره الجلب",
+            "required": false,
+            "value": "https://i.imgur.com/TkDRyzz.jpg"
+        },
+        "OWNER_NAME": {
+            "description": "اليوزر بتاعك م غير :-@",
+            "required": false,
+            "value": "G8_M_L"
+        },
+        "API_ID": {
+            "description": "هنا الايدي الي جبتوه App ID from my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "هن الايدي هاش Api hash from my.telegram.org/apps",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "يوزر الادمن للبوت : تقدر تخلي اكتر م حساب سيب مسافه بينهم",
+            "required": true
+        },
+        "DURATION_LIMIT": {
+            "description": "max",
+            "required": true,
+            "value": "60"
+        },
+        "PMPERMIT": {
+            "description": "سيبها زي مهي",
+            "required": false,
+            "value": "ENABLE"
+        },
+        "UPDATES_CHANNEL": {
+            "description": "حط قناتك هنا",
+            "required": false,
+            "value": "G8_01"
+        },
+        "GROUP_SUPPORT": {
+            "description": "حط جروب الدعم",
+            "required": false,
+            "value": "G8_00L"
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
