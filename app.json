@@ -17,17 +17,17 @@
         "BOT_NAME": {
             "description": "هنا هتحط اسم البوت",
             "required": false,
-            "value": "دندشه"
+            "value": "GAMBOL"
         },
         "BOT_USERNAME": {
             "description": "يوزر نيــم البوت منغير علامه -> @",
             "required": true,
-            "value": "dndusha_bot"
+            "value": "G8_00_bot"
         },
         "ASSISTANT_NAME": {
             "description": "يوزر نيــم بوتك تاني منغير ->  @",
             "required": true,
-            "value": "dndusha_bot"
+            "value": "G8_00_bot"
         },
         "BG_IMAGE": {
             "description": "هنا هتحط صوره الخلفيه ان وجدت",
@@ -42,7 +42,7 @@
         "OWNER_NAME": {
             "description": "حط اليوزر بتاعك منغير علامه @",
             "required": false,
-            "value": "alazizy"
+            "value": "G8_M_L"
         },
         "API_ID": {
             "description": "حــط App ID from my.telegram.org/apps",
