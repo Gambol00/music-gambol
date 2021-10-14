@@ -1,59 +1,59 @@
 {
-    "name": "ᴅᴇᴠ ɢᴀᴍʙᴏʟ",
-    "logo": "https://i.imgur.com/A4foEFL.jpg",
-    "description": "Ꮐ8 Music Voice Chat.",
+    "name": "G8_M_L",
+    "logo": "https://telegra.ph/file/ab2c87e2a01a9bd222d1f.jpg",
+    "description": "G8 Music Voice Chat.",
     "keywords": ["music", "voice chat", "telegram"],
     "repository": "https://github.com/Gambol00/music-gambol",
     "stack": "container",
     "env": {
         "SESSION_NAME": {
-            "description": "كـود التـريـمكـس",
+            "description": "هنا حط كود تيرمكس",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "تــوكن البــوت",
+            "description": "هنا هتحط توكن بوتك ",
             "required": true
         },
         "BOT_NAME": {
-            "description": "اســم البـــوت",
+            "description": "هنا هتحط اسم البوت",
             "required": false,
-            "value": "ɢᴀᴍʙᴏʟ"
+            "value": "دندشه"
         },
         "BOT_USERNAME": {
-            "description": "يوزر البــوت م غير > @",
+            "description": "يوزر نيــم البوت منغير علامه -> @",
             "required": true,
-            "value": "G8_00_bot"
+            "value": "dndusha_bot"
         },
         "ASSISTANT_NAME": {
-            "description": "يوزر المـساعــد م غيـر >  @",
+            "description": "يوزر نيــم بوتك تاني منغير ->  @",
             "required": true,
-            "value": "G8_00_0"
+            "value": "dndusha_bot"
         },
         "BG_IMAGE": {
-            "description": "الــصـــوره",
+            "description": "هنا هتحط صوره الخلفيه ان وجدت",
             "required": false,
-            "value": "https://i.imgur.com/TkDRyzz.jpg"
+            "value": "https://telegra.ph/file/ab2c87e2a01a9bd222d1f.jpg"
         },
         "THUMB_IMG": {
-            "description": "صـوره الجلب",
+            "description": "سيبــها زي مهي عادي -> bg_image",
             "required": false,
-            "value": "https://i.imgur.com/TkDRyzz.jpg"
+            "value": "https://telegra.ph/file/ab2c87e2a01a9bd222d1f.jpg"
         },
         "OWNER_NAME": {
-            "description": "اليوزر بتاعك م غير :-@",
+            "description": "حط اليوزر بتاعك منغير علامه @",
             "required": false,
-            "value": "G8_M_L"
+            "value": "alazizy"
         },
         "API_ID": {
-            "description": "هنا الايدي الي جبتوه App ID from my.telegram.org/apps",
+            "description": "حــط App ID from my.telegram.org/apps",
             "required": true
         },
         "API_HASH": {
-            "description": "هن الايدي هاش Api hash from my.telegram.org/apps",
+            "description": "حــط Api hash from my.telegram.org/apps",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "يوزر الادمن للبوت : تقدر تخلي اكتر م حساب سيب مسافه بينهم",
+            "description": "حط ايدي الادمن بتاع البوت",
             "required": true
         },
         "DURATION_LIMIT": {
@@ -62,17 +62,17 @@
             "value": "60"
         },
         "PMPERMIT": {
-            "description": "سيبها زي مهي",
+            "description": "سيــبها.",
             "required": false,
             "value": "ENABLE"
         },
         "UPDATES_CHANNEL": {
-            "description": "حط قناتك هنا",
+            "description": "هنا حط قناه السورس بتاعتك",
             "required": false,
             "value": "G8_01"
         },
         "GROUP_SUPPORT": {
-            "description": "حط جروب الدعم",
+            "description": "هنا حط معرف جروبك",
             "required": false,
             "value": "G8_00L"
         }
