@@ -35,17 +35,17 @@ async def start_(client: Client, message: Message):
         f"""<b>✨ **مرحبا {message.from_user.first_name}** \n
 💭 **[{BOT_NAME}](https://t.me/{BOT_USERNAME}) هذا اسمي !**
 
-⋆  **اختصاصي تشغيل الاغاني فلمحادثات الصوتيه**
+⋆  **اختصاصي تشغيل الاغاني داخل المحادثات الصوتيه**
 
-⋆  **اضفني الان الي مجموعتك لكي تبدا الحفله**
+⋆  **قم باضافتي الي مجموعتك الان واستمتع**
 
-⋆  **اضغط علي هذا الامر /help لعرض الاوامر**
+⋆  **اضغط علي امر /help لعرض الاوامر**
 </b>""",
         reply_markup=InlineKeyboardMarkup(
             [ 
                 [
                     InlineKeyboardButton(
-                        "اضف البوت لمجموعتك", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "𖤍 اضافه البوت لمجموعتك 𖤍", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
@@ -54,7 +54,7 @@ async def start_(client: Client, message: Message):
                         "قناه السورس", url=f"https://t.me/{UPDATES_CHANNEL}")               
                  ],[
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx", url="https://t.me/G8_01"
+                        "•━⌯━•❴↝ᴍᴀᴛʀɪx↜❵•━⌯━•", url="https://t.me/G8_01"
                     )
                 ]
             ]
@@ -183,15 +183,15 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ʜᴇʟᴘ ɢʀᴏᴜᴘ", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ ᴄʜᴀɴᴀᴀʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "sᴏᴜʀᴄᴇ ᴍᴀᴛʀɪx", url=f"https://t.me/G8_01"
+                        "•━⌯━•❴↝ᴍᴀᴛʀɪx↜❵•━⌯━•", url=f"https://t.me/G8_01"
                     )
                 ]
             ]
